@@ -1,0 +1,42 @@
+.navbar {
+  display: flex;
+  gap: 1rem;
+
+  justify-content: center;
+}
+
+.navbar > div {
+  font-size: 24px;
+}
+.navbar button {
+  font-size: 20px;
+  padding: 0.65rem;
+  width: 100px;
+  border: none;
+  background-color: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form input,
+form label {
+  font-size: 16px;
+  margin: 0.15rem;
+}
+.form input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid;
+  padding: 0.1rem;
+  transition: padding 100ms ease-in-out;
+  background-color: transparent;
+}
+input:focus {
+  padding-bottom: 1rem;
+}
